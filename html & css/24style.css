@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 500px 500px 500px; 3 columns banegi 500px 500px 500px place le legi = web page pe kitne column chaiye + width  */
+    grid-template-columns: 1fr 2fr 1fr;  /* fraction units */ 
+    grid-template-rows: 600px 100px 100px;  /*height kitni hogi */
+    /* grid-template-columns: repeat(3, 1fr); 3 bar 1 fr ko repeat */
+    /* grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr); minimum 100px se 1fr tk le skte hai */
+    gap: 15px;
+}
+
+
+.box {
+    /* height: 100px;
+    width: 100px; */
+    /* margin: 5px; */
+}
+
+.box-1 {
+    background-color: red;
+    /* align-self:end; align urself y axis */
+     /* justify-self:center; align urself x axis */
+}
+
+
+.box-2 {
+    background-color: blue;
+    /* grid-column-start:1; */
+    /* grid-column-end:2; 1se start 2 pe end same as row */
+
+}
+
+
+.box-3 {
+    background-color: greenyellow;
+}

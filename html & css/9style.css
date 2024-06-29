@@ -1,0 +1,5 @@
+p {
+    font-family: cursive;
+    font-variant: small-caps; /* all letters in capital but in small size */
+    font-weight:500 ; /*bold lighter etc etc */
+}

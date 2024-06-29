@@ -1,0 +1,28 @@
+.grad {
+    height: 500;
+    /* background-image: linear-gradient(red,yellow); */
+
+    /*yellow will end to the right */
+    /* background-image: linear-gradient(to right, red,yellow); */
+
+    /*yellow will end to the top */
+    /* background-image: linear-gradient(to top, red,yellow); */
+
+}
+
+.redial-grad {
+    /*ecllipse format me color add */
+    /* background-image: radial-gradient(red,yellow); 3 - 4 color bhi add */
+    /* background-image: radial-gradient(circle , red, green ,yellow); */
+}
+
+/* .repeating-redial-grad {
+    /*color repeat hote rhege 
+    /* background-image: repeating-linear-gradient(red 10%, green 20% , yellow 10%); 
+} */
+
+/*Conic redial grad 360 deg me */
+.conic-grad {
+    /* background-image: conic-gradient(red 210deg, yellow, black); */
+}
+

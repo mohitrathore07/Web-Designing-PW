@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    /* display: inline-flex; take width content ke accordingly */
+    /* flex-direction: row; default */
+    /* flex-direction: row-reverse; reverse me set all the content */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; reverse format me  */
+    /* flex-wrap: wrap; on decreasing the width i will get wrap to be responsive */
+    /* flex-wrap: wrap-reverse; same as wrap but in reverse manner */
+    
+    justify-content: center ; /*content will be in center if direction row so x direction me center if direction column to y direction me */
+    /* justify-content: space-between ;  */
+    /* justify-content: space-around ;  */
+    /* justify-content: space-evenly ;  */
+
+    align-items: center; /*content will be in center if direction row so y direction me center if direction column to x direction me */
+    height: 500px;
+    /* gap: 1px;  gaps b/w items row as well as columns*/
+    /* row-gap: 1px; only in row */
+    /* column-gap: 1px; only in column */
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box-1 {
+background-color: red;
+}
+
+.box-2 {
+    background-color: yellow;
+}
+
+.box-3 {
+    background-color: yellowgreen;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: yellow;
+    /* order: 5; higher the order laster it will become */
+    /* flex-grow: 2; 2x ban jayega nd dhire dhire chhota hoga as compare to other */
+    /* flex-shrink: 2; faster shrink  */
+    /* align-self: flex-end; end pe is item ko set */
+}
+
+.box-3 {
+    background-color: yellowgreen;
+    /* flex-basis: 200px; size of this box */
+    flex: 0 0 100px ; /*grow shrink basis repectively */
+}

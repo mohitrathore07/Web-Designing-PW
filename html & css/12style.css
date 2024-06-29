@@ -1,0 +1,59 @@
+/* on hovering affect */
+/* P:hover {
+    background-color: black;
+    color: white;
+} */
+
+/*on focus */
+/* input:focus {
+    background-color: black;
+    color: red;
+    font-size: 25px;
+} */
+
+/*on just after clicking */
+/* a:active {
+    color: brown;
+} */
+
+/*after visited */
+/* a:visited {
+    color: navy;
+} */
+
+/*first child  */
+/* a:first-child {
+    background-color: yellow;
+}
+
+a:nth-child(2n+1) { become odd so 1st wala bhi change if we don't want so 2n use
+    background-color: red;
+} */
+
+
+/*first line of the paragraph */
+p::first-line {
+    color: violet;
+}
+
+/*first letter */
+/* p::first-letter {
+    color: red;
+} */
+
+/*before p content will be added */
+p::before{
+    content: "- Mohit";
+    color: blueviolet;
+}
+
+/*after p content will be added */
+p::after {
+    content: "- Mohit";
+    color: red;
+}
+
+/*on select by mouse ??? */
+P::selection {
+    color: blue; 
+}

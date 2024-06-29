@@ -1,0 +1,18 @@
+p {
+    /* color: red; */
+    color: #545ad4ac; /*more recommanded all browsers pe same = */
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg");
+    /* background-repeat: no-repeat; no-repeat */
+    /* background-repeat: repeat-x; repeat in x direction */
+    /* background-repeat: repeat-y; repeat in y direction */
+     background-repeat: no-repeat  ;
+     
+     /* background-attachment: fixed; img on a fixed place  on scroll sath me */
+     /* background-attachment: scroll; img on it's position even on scroll (default) */
+     /* background-attachment: local; content se attached content ke sath stick */
+      background-size:cover ; /*covered in a view */
+     /* background-size: contain; */
+}

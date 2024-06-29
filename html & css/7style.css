@@ -1,0 +1,14 @@
+.padding {
+    border: 2px solid black;
+    /* padding: auto; auto adjust */
+    /* padding: 100px 20px; x and y respectivly */
+    /* padding: 10px 20px 15px; top bottom left+right */
+}
+
+.margin {
+    border: 2px solid red;
+    /* width: 200px; */
+    /* margin: auto; auto space from outside equal distributions from all the ends  */
+    /* margin: 20px 10px 25px 25px; */
+    /* margin: 10px 15px 20px; top right+left bottom */
+}

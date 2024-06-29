@@ -1,0 +1,14 @@
+p {
+    /* padding: 10px; space around a content */
+    /* padding: 5px 35px 15px 20px; top right bottom left anti clock wise direction */
+    /* padding: 10px 20px; x and y respectively */
+    /* padding-top:10px ; from a perticular direction */
+    background-color: red;
+
+    margin: 15px;  /*after border area  */
+    /* margin: 15px 35px 15px 20px; top right bottom left anti clock wise direction */
+    /* margin: 15px 20px; x and y respectively */
+    /* margin-top:10px ; from a perticular direction */
+
+    border: 2px solid black; /*a border around a content after padding area */
+}

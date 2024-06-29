@@ -1,0 +1,32 @@
+/* Universal css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element selector */ 
+h1 {
+    color: red;
+}
+
+
+p {
+    color: blue;
+}
+
+/*class selector  */
+/* .heading {
+    color: yellow;
+} */
+
+
+/* id selector */
+/* #para {
+    color: red;
+} */
+
+
+/*selector list  */
+.heading , #para {
+    color: blue;
+}

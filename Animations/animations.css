@@ -1,0 +1,153 @@
+/* 1. typewritter animation */
+
+/* .container {
+    display: inline-block;
+}
+
+.text {
+    letter-spacing:10px ;
+    font-size: 3rem;
+    font-family: monospace;
+    border-right: 5px solid black;
+    width: 100%;
+    white-space: nowrap; /*bcz of width ye wrap na ho  */
+    /* overflow: hidden;
+    animation: typing 3s linear infinite,
+               cursor .6s step-end infinite alternate;
+}
+
+
+@keyframes cursor {
+    50% {
+        border-color:transparent ;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+    }
+} */ 
+
+/*  not perfect 2nd
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background-color: #0e6ffc;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-sizing: content-box; /*it means if content is wider than the box  so no problem since we have seted box-sizing border-box so content will not go outside to remove this behaviour use this 
+    background-color: #fff;
+    display: flex;
+    height: 50px;
+    padding: 30px 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+
+.words {
+    overflow: hidden;
+}
+
+p {
+    font-size: 3rem;
+}
+
+span {
+    display: block;
+    font-size: 3rem;
+    height: 100%;
+    padding-left: 10px ;
+    animation: spin_words 4s infinite;
+    color: #0e6ffc;
+}
+
+@keyframes spin_words {
+    10% {
+        transform: translateY(-112%);
+    }
+    25% {
+        transform: translateY(-220%);
+    }
+    50% {
+        transform: translateY(-330%);
+    }
+    75% {
+        transform: translateY(-440%);
+    }
+    100% {
+        transform: translateY(-550%);
+    }
+} */
+
+
+/*  3. perfect code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e6ffc;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    height: 50px;
+    padding: 50px 30px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+}
+
+.words {
+    overflow: hidden;
+    height: 3rem; /* Match the height of the span elements */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    display: block;
+    font-size: 3rem;
+    padding-left: 10px;
+    color: #0e6ffc;
+    animation: spin_words 12s infinite;
+}
+
+@keyframes spin_words {
+    0%, 14% {
+        transform: translateY(0);
+    }
+    28% {
+        transform: translateY(-100%);
+    }
+    42% {
+        transform: translateY(-200%);
+    }
+    56% {
+        transform: translateY(-300%);
+    }
+    70% {
+        transform: translateY(-400%);
+    }
+    84% {
+        transform: translateY(-500%);
+    }
+    100% {
+        transform: translateY(-600%);
+    }
+} */

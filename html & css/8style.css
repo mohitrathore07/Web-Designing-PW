@@ -1,0 +1,29 @@
+p {
+    color: red;
+    /* text-align-last: center; let say we have many lines so the last line will be centered */
+    /* text-align-last: center; last line pe property apply */
+    /* text-indent: 50px; text ki first line kitne dur se start hogi */
+    /* letter-spacing: 5px; letters ke bich spacing */
+    /* line-height: 15px ; lines ke bich space */
+    /* word-spacing: 10px  ; words ke bich space */
+}
+
+h3 {
+    /* text-align: start; align at the start */
+    /* text-align: end; text align at the left  */
+    /* text-align: justify; all in a line proprly manner me */
+}
+
+.clas {
+    /* direction: rtl; right to left direction content  */
+    /* direction: ltr; left to right content */
+}
+
+a {
+    /* text-decoration: none; */
+    /* text-decoration: underline; */
+    /* text-decoration: dashed; */
+    /* text-decoration: dotted; */
+    /* text-transform: uppercase; all in upper case */
+    /* text-transform: lowercase; all in upper case */
+}

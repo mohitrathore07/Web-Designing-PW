@@ -1,0 +1,83 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /*step 2 use animation-name to call */
+    animation-name: colorchange;
+    /*give duration - time to complete */
+    animation-duration: 5s;
+    /*give animation a delay */
+    animation-delay: 2s;
+    /*to change it's position */
+    position: relative;
+
+    /*how many times an animation will happen */
+    /* animation-iteration-count: 3; */
+
+    /*animation backwards se start */
+    /* animation-direction:reverse ; */
+    /* animation-direction:alternate-reverse ; phle reverse then forward */
+ 
+    /*after animation complition how will be the animation */
+    animation-fill-mode: forwards; /*it means 100% me jo set hai wo apply */
+    /* animation-fill-mode: backwards;  0% starting jesa */
+    /* animation-fill-mode: both; dono apply */
+
+    /*name duration timing-function delay iteration-count direction fill mode */
+    /* animation: colorchange 8s linear 2s infinite reverse; */
+}
+
+#ease {
+    animation-timing-function:ease ;
+}
+
+#linear {
+    animation-timing-function: linear;
+}
+
+#ease-in {
+    animation-timing-function: ease-in;
+}
+
+#ease-out {
+    animation-timing-function: ease-in-out;
+}
+
+
+/*step 1 make animation */
+@keyframes colorchange {
+    /* from { 
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background-color: yellow;
+        top: 0;
+        left: 200px;
+    } */
+    0% {
+        background-color: blue;
+        top: 0;
+        left: 0px;
+     }
+
+     25% {
+        background-color: yellow;
+        top: 0px;
+        left: 200px;
+     }
+     50% {
+        background-color: black;
+        top: 200px;
+        right: 0;
+     }
+     75% {
+        right: 200px;
+        background-color: aqua;
+     }
+     100% {
+        bottom: 200px;
+        background-color: greenyellow;
+     }
+}

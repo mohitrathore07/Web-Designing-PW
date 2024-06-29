@@ -1,0 +1,32 @@
+/* descendent selector */ 
+/* main p {
+    color: red;
+} */
+
+/* child selector */ 
+h1 > p {
+    color: blue;
+}
+
+section p {
+    color: violet;
+}
+
+
+/* section + p { /* Adjacent Selector - after section jo bhi p aane wala hai 1st uncoming p only
+    color: red;
+} */
+
+ /* section ~ p { /* General Selector - after section all the upcoming direct p 
+    color: green;
+}  */
+
+
+/*attribute selector */
+[target="_blank"] {
+    color: pink;
+}
+  
+[alt ~= one] { /*exact place of alt one text pe property apply */
+    background-color: red;
+}

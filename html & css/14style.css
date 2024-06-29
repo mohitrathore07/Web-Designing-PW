@@ -1,0 +1,26 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    /*whaat to be changed nd in how many seconds */
+    /* transition: width 2s; */
+    /*whaat to be changed nd in how many seconds */
+    transition: width 2s, height 2s;
+
+    /*start with slow then fast */
+    /* transition-timing-function:ease-in ; */
+
+    /*start fast then slow */
+    /* transition-timing-function:ease-out ; */
+
+    /*start nd end slow */
+    /* transition-timing-function: ease-in-out; */
+
+    /*kitne second baad start ho */
+    /* transition-delay: 3s; */
+}
+
+div:hover {
+    width: 200px;
+    height: 200px;
+}

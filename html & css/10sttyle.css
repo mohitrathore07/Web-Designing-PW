@@ -1,0 +1,18 @@
+p {
+    /* display: inline; content will take width according to it's content */
+    /* display: block; content will take full width  */
+    display: inline-block; /*we cannnot set width of an inline element so we have to make it inline-block to set it's width */ 
+    background-color: red;
+    width: 50%;
+}
+
+span {
+    color: red;
+    display:block;
+    height: 40px;
+}
+
+.para {
+    /* display: hidden;  */
+    /* display: none; it means ye not visible nd also it's place */
+}

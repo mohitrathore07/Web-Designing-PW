@@ -1,0 +1,11 @@
+.width {
+    border: 1px solid red;
+    width: 150px;
+    display: inline-block; 
+    /* min-width: 150px; it means minimum width 150px but if more content will be added so it will set width accordingly */
+    /* max-width: 300px; max width 300px hi rhegi isse jyada nhi hogi  */
+    /* height: 100px; fixed height */
+    /* min-height: 100px; */
+    max-height: 100px; /*  content may overlap */ 
+    /* overflow: hidden ; jo bhi content overflow kar rha tha wo hidden ho jayegi */
+}
